@@ -1,0 +1,67 @@
+2023-02-25 [main] INFO  c.c.OnlineSeatBookingSystemApplicationTests Starting OnlineSeatBookingSystemApplicationTests using Java 17.0.5 on INLEN8520075791 with PID 12568 (started by bmudunur in C:\Users\BMUDUNUR\git\JavaRepository\OnlineSeatBookingJ)
+ 2023-02-25 [main] DEBUG c.c.OnlineSeatBookingSystemApplicationTests Running with Spring Boot v2.6.1, Spring v5.3.13
+ 2023-02-25 [main] INFO  c.c.OnlineSeatBookingSystemApplicationTests No active profile set, falling back to default profiles: default
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.AdminRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.BookingRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.BookingdetailsRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.SeatRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 40 ms. Found 0 JDBC repository interfaces.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+ 2023-02-25 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2023-02-25 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.1.Final
+ 2023-02-25 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+ 2023-02-25 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+ 2023-02-25 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+ 2023-02-25 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+ 2023-02-25 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2023-02-25 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2023-02-25 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2023-02-25 [main] INFO  c.c.OnlineSeatBookingSystemApplicationTests Started OnlineSeatBookingSystemApplicationTests in 4.553 seconds (JVM running for 5.455)
+ 2023-02-25 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+ 2023-02-25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+ 2023-02-25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+ 2023-02-25 [main] INFO  o.s.boot.SpringApplication Starting SpringApplication v2.6.1 using Java 17.0.5 on INLEN8520075791 with PID 3924 (C:\Users\BMUDUNUR\.m2\repository\org\springframework\boot\spring-boot\2.6.1\spring-boot-2.6.1.jar started by bmudunur in C:\Users\BMUDUNUR\git\JavaRepository\OnlineSeatBookingJ)
+ 2023-02-25 [main] INFO  o.s.boot.SpringApplication No active profile set, falling back to default profiles: default
+ 2023-02-25 [main] ERROR o.s.boot.SpringApplication Application run failed
+ java.lang.IllegalArgumentException: Sources must not be empty
+	at org.springframework.util.Assert.notEmpty(Assert.java:470)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:403)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.main(SpringApplication.java:1317)
+2023-02-25 [main] INFO  c.c.OnlineSeatBookingSystemApplication Starting OnlineSeatBookingSystemApplication using Java 17.0.5 on INLEN8520075791 with PID 13736 (C:\Users\BMUDUNUR\git\JavaRepository\OnlineSeatBookingJ\target\classes started by bmudunur in C:\Users\BMUDUNUR\git\JavaRepository\OnlineSeatBookingJ)
+ 2023-02-25 [main] DEBUG c.c.OnlineSeatBookingSystemApplication Running with Spring Boot v2.6.1, Spring v5.3.13
+ 2023-02-25 [main] INFO  c.c.OnlineSeatBookingSystemApplication No active profile set, falling back to default profiles: default
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.AdminRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.BookingRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.BookingdetailsRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.SeatRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.capg.repository.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 59 ms. Found 0 JDBC repository interfaces.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2023-02-25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+ 2023-02-25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+ 2023-02-25 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+ 2023-02-25 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.55]
+ 2023-02-25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+ 2023-02-25 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2225 ms
+ 2023-02-25 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2023-02-25 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.1.Final
+ 2023-02-25 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+ 2023-02-25 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+ 2023-02-25 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+ 2023-02-25 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+ 2023-02-25 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2023-02-25 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2023-02-25 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2023-02-25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+ 2023-02-25 [main] INFO  c.c.OnlineSeatBookingSystemApplication Started OnlineSeatBookingSystemApplication in 6.761 seconds (JVM running for 7.587)
+ 
